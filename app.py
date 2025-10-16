@@ -1,6 +1,6 @@
+import os
 from flask import Flask, render_template, jsonify, request
 from flask_cors import CORS
-import os # <-- 1. Import os module
 
 # 2. Define absolute paths for templates and static folders
 template_dir = os.path.abspath('./templates')
