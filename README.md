@@ -2,9 +2,10 @@
 
 A personal portfolio website built with Python, Flask, and Tailwind CSS, inspired by a modern, single-page design.
 
-View the live site: [pranitsatnurkar.com](https://#) 
+View the live site: [pranitsatnurkar.com](https://portfolio-website-beta-two-64.vercel.app/) 
 
 ![Portfolio Screenshot](./images/screenshot.png)
+
 ## 🔨 Built With
 
 This project was built using a combination of modern web technologies:
