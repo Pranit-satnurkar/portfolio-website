@@ -1,7 +1,13 @@
 from flask import Flask, render_template, jsonify, request
 from flask_cors import CORS
+import os # <-- 1. Import os module
 
-app = Flask(__name__, static_folder='static')
+# 2. Define absolute paths for templates and static folders
+template_dir = os.path.abspath('./templates')
+static_dir = os.path.abspath('./static')
+
+# 3. Pass the paths to the Flask app
+app = Flask(__name__, template_folder=template_dir, static_folder=static_dir)
 CORS(app)
 
 # --- Your Personal Data ---
